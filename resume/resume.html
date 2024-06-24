@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume website html css</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      .defaultdisplay {
+          display: none;
+      }
+  </style>
+
+  </head>
+<body>    
+    <div class="container">
+      <div class="header">
+        <div class="img-area">
+            <img src="273902580_292547846315745_4215197158464960441_n.jpg" alt="">
+        </div>
+        <h1>Kian John Francis B. Palmes</h1>
+        <h3>FULL-TIME STUDENT</h3>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <button onclick="displayPersonal()">Personal Information</button>
+          <div id="personalInfo" class="defaultdisplay">
+            <p><strong>Name:</strong> Kian John Francis Palmes</p>
+            <p><strong>Age:</strong> 20</p>
+            <p><strong>Email:</strong> kianpalmes8@gmail.com</p>
+            <p><strong>Phone:</strong> 000 000 0000</p>
+          </div>
+          
+          <button onclick="displaySkills()">Programming Language</button>
+          <div id="skills" class="defaultdisplay">
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C#</li>
+              <li>Visual Basic</li>
+            </ul>
+          </div>
+
+          <button onclick="displayEducation()">Education</button>
+          <div id="education" class="defaultdisplay">
+            <ul>
+              <h3>Elementary</h3>
+              <li>Maitim 1st Elementary School</li>
+              <h3>Junior High School</h3>
+              <li>OBB Insitute of Learning INC.</li>
+              <h3>Senior High School</h3>
+              <li>CCT Senior High School</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="right">
+          <button onclick="displayWorkExperience()">Work Experience</button>
+          <div id="workExperience" class="defaultdisplay">
+            <h3>CHOWBEE DIGITAL MARKETING</h3>
+          <p><strong>Position:</strong> Virtual Assistant</p>
+          <p><strong>Position:</strong> Marketing Caller</p>
+          <ul>
+            <li>Assisting Customers through visual application</li>
+            <li>Entertaining Customers through calls</li>
+            <li>Being one of the top Employees</li>
+          </ul> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function displayPersonal() {
+        document.getElementById('personalInfo').style.display = 'block';
+        
+      }
+
+      function displaySkills() {
+        document.getElementById('skills').style.display = 'block';
+       
+      }
+
+      function displayEducation() {
+        document.getElementById('education').style.display = 'block';
+        
+      }
+
+      function displayWorkExperience() { 
+        document.getElementById('workExperience').style.display = 'block';
+      }
+    </script>
+</body>
+</html>

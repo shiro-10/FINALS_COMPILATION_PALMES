@@ -1,0 +1,57 @@
+
+.rcolor {
+    color: black;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+td,
+th {
+    padding: 1px;
+    color: rgb(0, 47, 14);
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+th {
+    border: 1px solid rgb(66, 165, 104);
+}
+
+caption {
+    background-color: rgb(28, 126, 35);
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+.container{
+	width:1200px;
+	height:1500px;
+	border:2px solid #333;
+	border-radius:10px;
+	overflow:auto;
+	margin:0 auto;
+	margin-top:65px;
+    background-image: url("newbg.jpg");
+	
+}
+
+.logo {
+	position: absolute;
+	padding-left:60px;
+	margin-top:48px;
+	width: 150px;
+	height: 150px;
+	
+}
